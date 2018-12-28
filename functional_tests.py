@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = webdriver.Firefox('/Users/Harry/Work/django/test/')
+browser = webdriver.Firefox()
 
 browser.get('http://localhost:8000')
 
